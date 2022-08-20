@@ -1,7 +1,8 @@
+import Navbar from "./components/pages/Navbar/Navbar";
 
 function App() {
   return (
-    <div>app</div>
+    <Navbar/>
   );
 }
 

@@ -68,7 +68,7 @@ export const Li = styled.li`
     }
 `;
 
-export const A = styled.a`
+export const A = styled.p`
     color: white;
     font-size: 1.2rem;
 `;

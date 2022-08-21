@@ -1,7 +1,7 @@
-import {Section, Img, H1, P, H3, Ul, DivText} from './CardsHomeStyled'
+import {Section, Img, H1, P, H3, Ul, DivText, DivFooter, PfooterGratis, PfooterBaixo} from './CardsHomeStyled'
 
 
-function CardsHome({src, alt, h1, p, h3, li1, li2, li3}) {
+function CardsHome({src, alt, h1, p, h3, li1, li2, li3, pfooter, imgfooter}) {
     return (
         <Section>
             <Img src={src} alt={alt}/>
@@ -15,6 +15,10 @@ function CardsHome({src, alt, h1, p, h3, li1, li2, li3}) {
                 <li>{li3}</li>
             </Ul>
             </DivText>
+            <DivFooter>
+                <p>{pfooter==="Gratis" ? <PfooterGratis>{pfooter}</PfooterGratis> : <PfooterBaixo>{pfooter}</PfooterBaixo>}</p>
+                <img src={imgfooter} alt={alt}/>
+            </DivFooter>
         </Section>
     )
 }

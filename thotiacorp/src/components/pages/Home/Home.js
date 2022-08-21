@@ -7,6 +7,8 @@ import carteira from "../../../Assets/carteira.png";
 import monitoramento from '../../../Assets/monitoramento.png';
 import seguranca from '../../../Assets/seguranca.png';
 import artificial from '../../../Assets/artificial.png';
+import gratis from '../../../Assets/gratis.png'
+import baixocusto from '../../../Assets/baixocusto.png';
 
 function Home() {
   return (
@@ -22,6 +24,8 @@ function Home() {
           li1="Mais perto"
           li2="Mais acessível"
           li3="Entre outros"
+          pfooter="Gratis"
+          imgfooter={gratis}
         />
         <CardsHome
           src={exames}
@@ -32,6 +36,8 @@ function Home() {
           li1="Mais perto"
           li2="Mais acessível"
           li3="Entre outros"
+          pfooter="Gratis"
+          imgfooter={gratis}
         />
         <CardsHome
           src={carteira}
@@ -42,6 +48,8 @@ function Home() {
           li1="Nota fiscal imediata"
           li2="Segurança juridica"
           li3="Entre outros"
+          pfooter="Gratis"
+          imgfooter={gratis}
         />
         <CardsHome
           src={monitoramento}
@@ -52,6 +60,8 @@ function Home() {
           li1="Adquira a imagem"
           li2="Veja todas inf."
           li3="Todos os laudos"
+          pfooter="Baixo Custo"
+          imgfooter={baixocusto}
         />
         <CardsHome
           src={artificial}
@@ -62,6 +72,8 @@ function Home() {
           li1="Analises complementares"
           li2="Analises automatizadas"
           li3="Entre outros benefícios"
+          pfooter="Gratis"
+          imgfooter={gratis}
         />
         <CardsHome
           src={seguranca}
@@ -72,6 +84,8 @@ function Home() {
           li1="Analisar exames"
           li2="Analisar consultas"
           li3="Entre outras"
+          pfooter="Gratis"
+          imgfooter={gratis}
         />
       </Div>
     </Section>

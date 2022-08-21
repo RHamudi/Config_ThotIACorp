@@ -15,7 +15,8 @@ function Navbar() {
                 <li><GiHeartPlus/> THOT I.A CORP</li>
                 <Pages>
                     {/*Links paginas */}
-                    <Link to="/home"><A href="/">Inicio</A></Link>
+                    <Link to="/"><A href="/">Inicio</A></Link>
+                    <Link to="/"><A href="/">Produtos</A></Link>
                     <Link to="/"><A href="/">Serviços</A></Link>
                     <Link to="/"><A href="/">Artigos</A></Link>
                     <Link to="/"><A href="/">Sobre</A></Link>

@@ -6,6 +6,12 @@
     list-style: none;
 }
 
+.container {
+    max-width: 70rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
 :root {
     --Primary-Color: #000080;
     --Secundary-Color: #fff;

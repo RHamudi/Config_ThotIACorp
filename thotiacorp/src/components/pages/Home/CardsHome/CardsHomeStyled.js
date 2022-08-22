@@ -14,16 +14,16 @@ export const Img = styled.img`
 
 export const H1 = styled.h1`
     font-size: 2rem;
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.2rem;
 `;
 
 export const P = styled.p`
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.2rem;
 `;
 
 export const H3 = styled.h3`
     font-size: 1.3rem;
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.2rem;
 `;
 
 export const Ul = styled.ul`

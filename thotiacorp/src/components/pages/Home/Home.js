@@ -1,5 +1,5 @@
 import CardsHome from "./CardsHome/CardsHome";
-import { H1, Section, Div } from "./HomeStyled";
+import { H1, H2, Section, Div } from "./HomeStyled";
 
 import consultas from "../../../Assets/consultas.png";
 import exames from "../../../Assets/exames.png";
@@ -9,11 +9,14 @@ import seguranca from '../../../Assets/seguranca.png';
 import artificial from '../../../Assets/artificial.png';
 import gratis from '../../../Assets/gratis.png'
 import baixocusto from '../../../Assets/baixocusto.png';
+import Observacoes from "./Observaçoes/Observacoes";
 
 function Home() {
   return (
+    <>
+    <H1>Inicio</H1>
     <Section className="container">
-      <H1>Inicio</H1>
+      <H2>Auxílio ao usuario</H2>
       <Div>
         <CardsHome
           src={consultas}
@@ -88,7 +91,9 @@ function Home() {
           imgfooter={gratis}
         />
       </Div>
+      <Observacoes />
     </Section>
+    </>
   );
 }
 

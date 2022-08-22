@@ -14,6 +14,16 @@ export const H1 = styled.h1`
     width: 10rem;
 `;
 
+export const H2 = styled.h2`
+    color: var(--Secundary-Color);
+    background: var(--Primary-Color);
+    text-align: center;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 20rem;
+`;
+
 export const Div = styled.div`
     display: flex;
     justify-content: space-around;
